@@ -3,14 +3,20 @@
 > A modern SharePoint Online intranet serving **500+ employees daily**, built with SPFx (React + TypeScript) and embedded Power BI dashboards for real-time KPI visibility.
  
 ---
+# 🏢 Enterprise Intranet Portal (SharePoint + SPFx + Power BI)
 
-⚡ TL;DR
-🚀 Supports 500+ daily active employees
-⚡ Improved performance by ~40% (8s → 4.8s)
-📈 Increased employee engagement by 65% in 60 days
-📊 Integrated 5 Power BI dashboards for real-time insights
-🧩 Built 8 custom SPFx web parts
-🔗 Connected with Microsoft Graph API + Azure Functions
+> A modern, high-performance SharePoint Online intranet serving **500+ daily users**, featuring real-time analytics dashboards, personalized experiences, and enterprise-grade architecture.
+
+---
+
+## ⚡ TL;DR
+
+* 🚀 Supports **500+ daily active employees**
+* ⚡ Improved performance by **~40% (8s → 4.8s)**
+* 📈 Increased employee engagement by **65% in 60 days**
+* 📊 Integrated **5 Power BI dashboards** for real-time insights
+* 🧩 Built **8 custom SPFx web parts**
+* 🔗 Connected with **Microsoft Graph API + Azure Functions**
 
  ---
  
@@ -27,15 +33,27 @@
 ---
  
 ## 🎯 Business Problem
- 
-The organization was running a legacy SharePoint 2013 intranet with slow page loads, no real-time data visibility, and low employee engagement. Leadership needed a modern, fast, and self-service digital workplace.
- 
+
+The organization relied on a legacy SharePoint 2013 intranet that suffered from:
+
+* 🐢 Slow load times (~8 seconds)
+* ❌ No real-time business data visibility
+* 📉 Low employee engagement
+* 📧 Heavy dependency on manual processes (emails, Excel reports)
+
+👉 Result: Poor productivity and lack of data-driven decision-making
 ---
  
 ## ✅ Solution
  
-Architected and delivered a fully modern SharePoint Online intranet with 8 custom SPFx web parts, 5 embedded Power BI dashboards, and Microsoft Graph API integration — reducing load time by ~40% and boosting engagement by ~65% within 60 days.
- 
+Designed and developed a modern SharePoint Online intranet platform with:
+
+* ⚛️ Dynamic UI using SPFx (React + TypeScript)
+* 📊 Embedded Power BI dashboards for live analytics
+* 🔗 Microsoft Graph API integration for real-time employee data
+* ☁️ Azure Functions for scalable backend processing
+
+👉 Delivered a self-service digital workplace replacing manual workflows
 ---
  
 ## 🛠️ Tech Stack
@@ -67,11 +85,13 @@ Architected and delivered a fully modern SharePoint Online intranet with 8 custo
  
 ## 📊 Power BI Dashboards Embedded
  
-- Finance — Budget vs Actuals, spend trends
-- HR — Headcount, attrition, leave analytics
-- IT — Ticket volume, SLA compliance, asset status
-- Operations — Project status, delivery KPIs
-- Sales — Pipeline, revenue targets, regional performance
+* 💰 Finance → Budget vs Actuals
+* 👨‍💼 HR → Headcount, Attrition
+* 🛠️ IT → Ticket SLA, Asset Status
+* 📦 Operations → Delivery KPIs
+* 📈 Sales → Pipeline & Revenue
+
+👉 Enabled real-time decision-making across departments
  
 ---
  
