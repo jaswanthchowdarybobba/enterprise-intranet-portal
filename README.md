@@ -115,7 +115,7 @@ SharePoint Online
  
 ---
  
-## 📁 Repository Structure
+## 📁 Project Structure
  
 ```
 📦 sharepoint-intranet-portal
