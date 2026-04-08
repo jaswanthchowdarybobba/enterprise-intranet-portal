@@ -59,7 +59,7 @@ Designed and developed a modern SharePoint Online intranet platform with:
 ## 🖼️ Screenshots
 
 ### 🏢 Home Dashboard
-
+![Homepage](homepage.png)
 ### 📊 Analytics Dashboard
 
 ### 👥 Employee Directory
