@@ -56,6 +56,18 @@ Designed and developed a modern SharePoint Online intranet platform with:
 👉 Delivered a self-service digital workplace replacing manual workflows
 ---
  
+## 🖼️ Screenshots
+
+### 🏢 Home Dashboard
+
+### 📊 Analytics Dashboard
+
+### 👥 Employee Directory
+
+### 📅 Events & Quick Links
+
+---
+
 ## 🛠️ Tech Stack
  
 | Layer | Technologies |
