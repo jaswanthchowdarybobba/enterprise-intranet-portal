@@ -15,131 +15,122 @@
 
  ---
  
-## 📌 Project Overview
- 
-| Detail | Info |
-|---|---|
-| **Type** | Intranet Modernization / BI & Analytics |
-| **Platform** | SharePoint Online |
-| **Users** | 500+ daily active employees |
-| **Duration** | Enterprise-scale full lifecycle delivery |
-| **Role** | SharePoint Developer (Freelance Consultant) |
- 
----
- 
-## 🎯 Business Problem
 
-The organization relied on a legacy SharePoint 2013 intranet that suffered from:
+<!-- ============================================================ -->
+<!--  TWO COLUMN LAYOUT — like SharePoint Section with 2 columns  -->
+<!-- ============================================================ -->
 
-* 🐢 Slow load times (~8 seconds)
-* ❌ No real-time business data visibility
-* 📉 Low employee engagement
-* 📧 Heavy dependency on manual processes (emails, Excel reports)
+<table width="100%" cellspacing="0" cellpadding="0">
+<tr valign="top">
 
-👉 Result: Poor productivity and lack of data-driven decision-making
----
- 
-## ✅ Solution
- 
-Designed and developed a modern SharePoint Online intranet platform with:
+<!-- LEFT COLUMN -->
+<td width="65%" style="padding-right:16px;">
 
-* ⚛️ Dynamic UI using SPFx (React + TypeScript)
-* 📊 Embedded Power BI dashboards for live analytics
-* 🔗 Microsoft Graph API integration for real-time employee data
-* ☁️ Azure Functions for scalable backend processing
+### 📋 About This Project
 
-👉 Delivered a self-service digital workplace replacing manual workflows
----
- 
-## 🖼️ Screenshots
-
-### 🏢 Home Dashboard
-![Homepage](homepage.png)
-### 📊 Analytics Dashboard
-
-### 👥 Employee Directory
-
-### 📅 Events & Quick Links
+> A fully modern SharePoint Online intranet built to replace a legacy SharePoint 2013 environment. Architected with 8 custom SPFx web parts (React + TypeScript + Fluent UI), 5 embedded Power BI dashboards, and Microsoft Graph API integration for live org data — reducing page load time by ~40% and boosting employee engagement by ~65% within 60 days of launch.
 
 ---
 
-## 🛠️ Tech Stack
- 
-| Layer | Technologies |
-|---|---|
-| **Frontend** | SPFx, React, TypeScript, Fluent UI, CSS3 |
-| **Backend / API** | Microsoft Graph API, Azure Functions, PnP JS |
-| **Analytics** | Power BI (embedded dashboards) |
-| **Platform** | SharePoint Online, Microsoft 365 |
-| **Dev Tools** | VS Code, Azure DevOps, PnP PowerShell |
- 
----
- 
-## 🧩 Custom SPFx Web Parts Built
- 
-| # | Web Part | Description |
+### 🧩 Custom SPFx Web Parts
+
+| Web Part | Description | Tech |
 |---|---|---|
-| 1 | **News Feed** | Dynamic company news with filtering by department |
-| 2 | **Department Hub** | Per-department landing with links, contacts & docs |
-| 3 | **Quick Links** | Personalized shortcut tiles with icon support |
-| 4 | **Event Calendar** | Live SharePoint calendar with month/week view |
-| 5 | **KPI Tracker** | Live metric cards pulling from Power BI datasets |
-| 6 | **Org Directory** | Graph API-powered searchable employee directory |
-| 7 | **Weather Widget** | Location-aware weather using external API |
-| 8 | **Announcements** | Priority-based alert banner with dismissal |
- 
----
- 
-## 📊 Power BI Dashboards Embedded
- 
-* 💰 Finance → Budget vs Actuals
-* 👨‍💼 HR → Headcount, Attrition
-* 🛠️ IT → Ticket SLA, Asset Status
-* 📦 Operations → Delivery KPIs
-* 📈 Sales → Pipeline & Revenue
+| 📰 **News Feed** | Dynamic company news with department filtering | SPFx + REST API |
+| 🏛 **Department Hub** | Per-department landing with links and contacts | SPFx + Graph API |
+| 🔗 **Quick Links** | Personalized shortcut tiles with icon support | SPFx + SharePoint List |
+| 📅 **Event Calendar** | Live calendar with month/week view | SPFx + Graph API |
+| 📊 **KPI Tracker** | Live metric cards from Power BI datasets | SPFx + Power BI Embedded |
+| 👥 **Org Directory** | Searchable employee directory | SPFx + Graph API |
+| 🌤 **Weather Widget** | Location-aware weather via external API | SPFx + Azure Functions |
+| 📢 **Announcements** | Priority-based alert banner with dismissal | SPFx + SharePoint List |
 
-👉 Enabled real-time decision-making across departments
- 
 ---
- 
-## 📈 Results & Impact
- 
-| Metric | Before | After |
+
+### 📊 Power BI Dashboards Embedded
+
+| Dashboard | Department | KPIs Tracked |
 |---|---|---|
-| Page load time | ~8 seconds (SP 2013) | ~4.8 seconds (~40% faster) |
-| Employee engagement | Baseline | **+65% within 60 days** |
-| Self-service adoption | Manual email requests | Full self-service portal |
-| BI reporting | Manual Excel reports | Live embedded dashboards |
- 
+| Finance | Finance | Budget vs Actuals, Spend Trends |
+| People | HR | Headcount, Attrition, Leave |
+| Support | IT | Ticket Volume, SLA Compliance |
+| Delivery | Operations | Project Status, KPIs |
+| Revenue | Sales | Pipeline, Targets, Regional |
+
 ---
- 
-## 🏗️ Architecture Overview
- 
+
+### 🏗️ Architecture
+
 ```
 SharePoint Online
 │
 ├── SPFx Web Parts (React + TypeScript + Fluent UI)
-│   ├── News Feed
+│   ├── News Feed ────────────── SharePoint List (REST)
 │   ├── KPI Tracker ──────────── Power BI Embedded
 │   ├── Org Directory ─────────── Microsoft Graph API
-│   └── Event Calendar ────────── SharePoint List
+│   └── Event Calendar ────────── Graph API /events
 │
 ├── Azure Functions (serverless backend)
-│   └── External API calls (Weather, 3rd-party KPIs)
+│   └── Weather API · 3rd-party KPI integrations
 │
 └── PnP JS / REST API
-    └── SharePoint List & Library operations
+    └── List & Library CRUD operations
 ```
- 
+
+</td>
+
+<!-- RIGHT COLUMN -->
+<td width="35%">
+
+### 📌 Project Details
+
+| | |
+|---|---|
+| **Type** | Intranet Modernization |
+| **Platform** | SharePoint Online |
+| **Users** | 500+ daily |
+| **Duration** | Full lifecycle |
+| **Role** | SharePoint Developer |
+| **Status** | ✅ Live |
+
 ---
- 
-## 🔐 Governance & Security
- 
-- RBAC enforced across all site collections
-- Audience targeting on web parts per department
-- Content approval workflows for news publishing
-- Compliance-aligned retention policies on libraries
- 
+
+### 🛠️ Tech Stack
+
+![SharePoint](https://img.shields.io/badge/SharePoint_Online-0078D4?style=flat-square&logo=microsoft-sharepoint&logoColor=white)
+![SPFx](https://img.shields.io/badge/SPFx-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
+![Fluent UI](https://img.shields.io/badge/Fluent_UI-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Graph API](https://img.shields.io/badge/MS_Graph-00BCF2?style=flat-square&logo=microsoft&logoColor=white)
+![Azure Functions](https://img.shields.io/badge/Azure_Functions-0062AD?style=flat-square&logo=azure-functions&logoColor=white)
+![PnP JS](https://img.shields.io/badge/PnP_JS-green?style=flat-square)
+
+---
+
+### 📈 Results
+
+| Metric | Outcome |
+|---|---|
+| Page load | ~40% faster |
+| Engagement | +65% in 60 days |
+| BI reporting | Live dashboards |
+| Self-service | Full adoption |
+
+---
+
+### 🔐 Governance
+
+- RBAC across all site collections
+- Audience targeting per dept
+- Content approval for news
+- Retention policies on libs
+
+</td>
+</tr>
+</table>
+
 ---
  
 ## 📁 Project Structure
