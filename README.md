@@ -1,8 +1,3 @@
-# 🏢 Enterprise Intranet Portal with Dashboard & Analytics
- 
-> A modern SharePoint Online intranet serving **500+ employees daily**, built with SPFx (React + TypeScript) and embedded Power BI dashboards for real-time KPI visibility.
- 
----
 # 🏢 Enterprise Intranet Portal (SharePoint + SPFx + Power BI)
 
 > A modern, high-performance SharePoint Online intranet serving **500+ daily users**, featuring real-time analytics dashboards, personalized experiences, and enterprise-grade architecture.
